@@ -4,8 +4,20 @@ Upstream-Contact: Ashley Mannix <ashleymannix@live.com.au>
 Source: https://github.com/sval-rs/value-bag
 
 Files: *
-Copyright: 2020-2022 Ashley Mannix <ashleymannix@live.com.au>
+Copyright: FIXME (overlay) UNKNOWN-YEARS Ashley Mannix <ashleymannix@live.com.au>
 License: Apache-2.0 or MIT
+Comment:
+ FIXME (overlay): Since upstream copyright years are not available in
+ Cargo.toml, they were extracted from the upstream Git repository. This may not
+ be correct information so you should review and fix this before uploading to
+ the archive.
+
+Files: ./LICENSE-MIT
+Copyright: 2020 sval-rs
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
 
 Files: debian/*
 Copyright:
@@ -35,4 +47,3 @@ License: MIT
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
-

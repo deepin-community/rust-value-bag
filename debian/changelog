@@ -1,5 +1,28 @@
-template-repository (1.0-1) unstable; urgency=medium
+rust-value-bag (1.0.0~alpha.9-3) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * Package value-bag 1.0.0-alpha.9 from crates.io using debcargo 2.5.0
+  * Re-enable serde-fmt and sval related features.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 20 Oct 2022 15:41:00 +0000
+
+rust-value-bag (1.0.0~alpha.9-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package value-bag 1.0.0-alpha.9 from crates.io using debcargo 2.5.0
+  * Disable serde-fmt and sval related features for now, they can be renabled
+    if/when those packages are in Debian (Closes: #1020484)
+  * Add alloc feature to erased-serde dependency, it fails to build without
+    at least one of std or alloc.
+  * Remove dev-dependency on wasm-bindgen-test, it's not in Debian and doesn't
+    seem to be needed to run the tests on Linux.
+  * Override and manually fix debian/tests/control, it seems debcargo gets the
+    crate directory wrong for alpha versions.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 25 Sep 2022 14:34:06 +0000
+
+rust-value-bag (1.0.0~alpha.9-1) unstable; urgency=medium
+
+  * Package value-bag 1.0.0-alpha.9 from crates.io using debcargo 2.5.0
+
+ -- Reinhard Tartler <siretart@tauware.de>  Fri, 09 Sep 2022 07:19:42 -0400
